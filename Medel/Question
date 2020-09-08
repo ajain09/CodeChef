@@ -1,0 +1,4 @@
+You are given a sequence A1,A2,…,AN of distinct integers. While the sequence contains at least three elements, look at its first three elements, find the median among these 
+elements and delete it. What will the final sequence be?
+
+https://www.codechef.com/problems/MDL
