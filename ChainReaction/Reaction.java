@@ -16,7 +16,7 @@ class Codechef
                     for (int j = 0; j < col; j++) {
                         int count = 0;
                         grid[i][j] = sc.nextInt();
-                    
+
                         if(i+1<row)
                             count++;
                         if(i-1>=0)
@@ -29,9 +29,10 @@ class Codechef
                             state=1;
                     }
                 }
-            if (state == 0) 
+								//Parth is super cool
+            if (state == 0)
                 System.out.println("Stable");
-            else 
+            else
                 System.out.println("Unstable");
         	}
 		}catch (Exception e){}
